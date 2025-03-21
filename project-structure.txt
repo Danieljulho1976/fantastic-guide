@@ -1,0 +1,41 @@
+# Sistema de Gerenciamento de Manutenção Preventiva
+
+## Estrutura de Diretórios
+
+```
+manutencao-preventiva/
+├── client/                      # Frontend React
+│   ├── public/                  # Arquivos estáticos
+│   │   ├── logo.png            
+│   │   └── index.html
+│   ├── src/
+│   │   ├── assets/              # Imagens, ícones, etc.
+│   │   ├── components/          # Componentes reutilizáveis
+│   │   ├── context/             # Contextos para gerenciamento de estado
+│   │   ├── layouts/             # Layouts da aplicação
+│   │   ├── pages/               # Páginas da aplicação
+│   │   ├── services/            # Serviços de API
+│   │   ├── utils/               # Funções utilitárias
+│   │   ├── App.jsx              # Componente raiz
+│   │   └── index.jsx            # Ponto de entrada
+│   ├── package.json
+│   └── vite.config.js           # Configuração do Vite
+│
+├── server/                      # Backend Node.js
+│   ├── config/                  # Configurações
+│   ├── controllers/             # Controladores
+│   ├── db/                      # Configuração do banco de dados
+│   │   ├── migrations/          # Migrações para o banco
+│   │   └── seeds/               # Dados iniciais
+│   ├── middleware/              # Middlewares
+│   ├── models/                  # Modelos
+│   ├── routes/                  # Rotas da API
+│   ├── services/                # Serviços
+│   ├── utils/                   # Utilitários
+│   ├── app.js                   # Aplicação Express
+│   ├── server.js                # Ponto de entrada
+│   └── package.json
+│
+├── .gitignore
+└── README.md
+```
